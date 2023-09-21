@@ -1,0 +1,36 @@
+/* Para telas de 0px a 570px */
+@media screen and (max-width: 570px) {
+    .container-menu > h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+  
+    
+
+}
+
+/* Para telas de 571px a 990px */
+@media screen and (min-width: 571px) and (max-width: 990px) {
+    .container-menu > h1  {
+        font-size: 50px;
+        text-align: center;
+    
+    }
+}
+
+/* Para telas de 991px a 1200px */
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .container-menu > h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+}
+
+/* Para telas maiores que 1200px */
+@media screen and (min-width: 1201px) {
+    .container-menu > h1 {
+        font-size: 100px;
+        text-align: center;
+    }
+}
